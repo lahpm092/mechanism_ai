@@ -57,6 +57,7 @@ def main(vault: str, output: str) -> None:
     generate_full_graph_visualization(
         parsed_data["graph"],
         str(graph_html),
+        parsed_files=parsed_data["parsed_files"],
     )
 
     # Generate holon map
