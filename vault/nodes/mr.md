@@ -1,0 +1,35 @@
+---
+id: mr
+type: receptor
+scale: molecular
+aliases: [NR3C2, mineralocorticoid nuclear receptor]
+holon_membership: [hpa-axis, glucocorticoid-feedback]
+confidence: 0.92
+sources:
+  - "doi:10.1210/er.2003-0010"
+  - "doi:10.1016/j.steroids.2014.05.003"
+  - "doi:10.1038/nrn2834"
+tags: [nuclear-receptor, steroid-receptor]
+---
+
+# MR (Mineralocorticoid Receptor)
+
+The mineralocorticoid receptor (MR, NR3C2) is a 984-amino-acid ligand-activated nuclear receptor transcription factor encoded by the NR3C2 gene on chromosome 4q31.23. Like the closely related [[gr]], MR belongs to the steroid/thyroid/retinoid receptor superfamily and shares the conserved domain architecture of an N-terminal activation domain, central DNA-binding domain, and C-terminal ligand-binding domain. MR and [[gr]] evolved from a common ancestral corticoid receptor through gene duplication approximately 450 million years ago and retain approximately 57% amino acid identity in their ligand-binding domains and 94% identity in their DNA-binding domains. This high DBD conservation means that MR and [[gr]] recognize similar or identical hormone response elements in DNA, yet their distinct N-terminal domains recruit different coregulator proteins, resulting in different transcriptional outcomes.
+
+A defining feature of MR pharmacology is its remarkably high affinity for [[cortisol]], approximately 10-fold higher than that of [[gr]] (Kd ~0.5-1 nM for MR versus ~5-30 nM for GR). Since basal circulating [[cortisol]] concentrations (50-150 nM free cortisol) far exceed the MR Kd, MR is substantially occupied and activated even under non-stress conditions. This creates a physiological paradox: cortisol circulates at 100-1000 fold higher concentrations than aldosterone, yet MR must function as a selective aldosterone receptor in tissues like the kidney. This selectivity problem is solved by [[11beta-hsd2]], which is co-expressed with MR in aldosterone-target tissues and converts [[cortisol]] to receptor-inactive cortisone, thereby allowing aldosterone to occupy MR without competition. In tissues lacking [[11beta-hsd2]], such as the hippocampus and cardiomyocytes, MR functions primarily as a high-affinity [[cortisol]] receptor.
+
+## Upstream Causes
+
+MR activation is driven by its two endogenous ligands: [[cortisol]] and aldosterone. In epithelial tissues (distal nephron, colon, salivary glands), [[11beta-hsd2]] shields MR from [[cortisol]], allowing aldosterone to be the primary activator. Aldosterone secretion is regulated by the renin-angiotensin-aldosterone system (RAAS), plasma potassium, and, to a lesser extent, [[acth]]. In non-epithelial tissues lacking [[11beta-hsd2]] -- most critically the hippocampus, amygdala, prefrontal cortex, and heart -- MR is activated primarily by [[cortisol]], with the degree of MR activation tracking circulating [[cortisol]] levels as determined by [[hpa-axis]] activity. Because of its high affinity, hippocampal MR is substantially occupied at basal [[cortisol]] concentrations and becomes fully saturated during the circadian [[cortisol]] peak and mild stress, making it particularly sensitive to the lower range of [[cortisol]] fluctuations. MR expression in the hippocampus is itself regulated by glucocorticoids and by neural activity, with chronic stress and elevated [[cortisol]] capable of downregulating hippocampal MR density.
+
+## Downstream Effects
+
+In the kidney, MR activation by aldosterone drives expression of the epithelial sodium channel (ENaC), the Na+/K+-ATPase, and serum- and glucocorticoid-regulated kinase 1 (SGK1), promoting sodium reabsorption and potassium excretion -- the classical mineralocorticoid response. In the hippocampus, MR activation by [[cortisol]] exerts tonic, permissive effects on neuronal excitability, long-term potentiation, and glutamate neurotransmission. Hippocampal MR signaling maintains basal HPA axis tone by supporting inhibitory GABAergic projections from the hippocampus to the hypothalamic PVN, thereby contributing to the tonic restraint of [[crh]] release. This MR-mediated proactive feedback operates at basal [[cortisol]] levels and is complementary to [[gr]]-mediated reactive feedback, which is engaged at stress-level [[cortisol]] concentrations. In the cardiovascular system, MR activation in cardiomyocytes and vascular endothelial cells can promote fibrosis, inflammation, and endothelial dysfunction, particularly when [[cortisol]] or aldosterone levels are pathologically elevated or when the redox environment favors MR activation.
+
+## Holon Context
+
+Within the [[hpa-axis]] holon, MR functions as the high-affinity limb of the dual corticoid receptor system that calibrates HPA axis set point and responsiveness. The MR-[[gr]] balance hypothesis, formulated by de Kloet and colleagues, posits that MR determines the threshold and sensitivity of the stress response (proactive feedback), while [[gr]] determines the magnitude of the response and its termination (reactive feedback). Hippocampal MR maintains basal HPA axis restraint and circadian rhythmicity; when MR is experimentally blocked, basal [[cortisol]] and [[acth]] levels rise, and the circadian nadir is lost. Within the [[glucocorticoid-feedback]] holon, MR and [[gr]] represent two sensors for the same ligand ([[cortisol]]) but operating over different concentration ranges and with different downstream consequences, enabling the feedback system to encode both the tonic state and acute deviations from homeostasis. The tissue-specific interaction between MR and [[11beta-hsd2]] determines whether MR functions as a mineralocorticoid or glucocorticoid receptor, creating context-dependent receptor function that exemplifies multi-scale holon architecture.
+
+## Clinical Relevance
+
+MR dysfunction has broad clinical implications. Gain-of-function MR mutations (e.g., MR-S810L) cause early-onset hypertension with inappropriate sodium retention. Loss-of-function MR mutations cause autosomal dominant pseudohypoaldosteronism type 1, characterized by renal salt wasting, hyperkalemia, and metabolic acidosis despite elevated aldosterone. MR antagonists (spironolactone, eplerenone, finerenone) are cornerstone therapies in heart failure with reduced ejection fraction, resistant hypertension, and primary aldosteronism, where their benefit extends beyond blood pressure reduction to include anti-fibrotic and anti-inflammatory effects. The RALES and EMPHASIS-HF trials demonstrated significant mortality reductions with MR antagonism in heart failure, establishing MR as a major cardiovascular drug target. In neuroscience, reduced hippocampal MR expression and function have been implicated in the pathophysiology of major depressive disorder, and MR agonists (fludrocortisone) have shown preliminary antidepressant effects in clinical trials, consistent with the MR-[[gr]] balance hypothesis. Liquorice-induced hypertension, caused by glycyrrhetinic acid inhibition of [[11beta-hsd2]], results in inappropriate MR activation by [[cortisol]] in the kidney, mimicking primary aldosteronism.

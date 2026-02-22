@@ -1,0 +1,34 @@
+---
+id: 11beta-hsd1
+type: protein
+scale: molecular
+aliases: [HSD11B1, cortisone reductase]
+holon_membership: [glucocorticoid-feedback]
+confidence: 0.90
+sources:
+  - "doi:10.1210/er.2004-0010"
+  - "doi:10.1016/j.tem.2009.06.005"
+tags: [enzyme, steroid-metabolism]
+---
+
+# 11beta-HSD1 (11-Beta-Hydroxysteroid Dehydrogenase Type 1)
+
+11-beta-hydroxysteroid dehydrogenase type 1 (11beta-HSD1), encoded by the HSD11B1 gene on chromosome 1q32.2, is a 292-amino-acid microsomal enzyme that catalyzes the interconversion of inactive cortisone and active [[cortisol]]. Despite being a bidirectional short-chain dehydrogenase/reductase (SDR) family member in vitro, 11beta-HSD1 functions predominantly as a reductase (oxo-reductase) in intact cells, converting cortisone to [[cortisol]]. This directional preference is determined by the high NADPH/NADP+ ratio within the endoplasmic reticulum lumen, maintained by hexose-6-phosphate dehydrogenase (H6PDH), which regenerates NADPH and thereby drives the reductive reaction. The obligate coupling between 11beta-HSD1 and H6PDH means that loss of H6PDH function switches 11beta-HSD1 from reductase to dehydrogenase activity, as demonstrated in cortisone reductase deficiency.
+
+11beta-HSD1 is highly expressed in the liver, adipose tissue (both visceral and subcutaneous), brain (hippocampus, cortex, cerebellum), lung, ovary, and bone. In these tissues, 11beta-HSD1 functions as a local amplifier of glucocorticoid signaling by regenerating active [[cortisol]] from circulating cortisone, effectively increasing the intracellular [[cortisol]] concentration available for [[gr]] and [[mr]] activation beyond what is provided by systemic delivery alone. This intracrine mechanism allows tissue-specific control of glucocorticoid tone independent of systemic [[cortisol]] levels, adding a layer of local regulation to the circulating hormone signal established by the [[hpa-axis]].
+
+## Upstream Causes
+
+11beta-HSD1 expression is regulated by multiple hormonal and inflammatory signals. Glucocorticoids themselves upregulate 11beta-HSD1 expression in liver and adipose tissue, creating a positive feedforward loop that amplifies local [[cortisol]] regeneration during states of [[cortisol]] excess or chronic stress. Pro-inflammatory cytokines, particularly [[tnf-alpha]] and [[il-1beta]], potently stimulate 11beta-HSD1 expression in adipose tissue, liver, and synovial fibroblasts, a mechanism thought to enhance local anti-inflammatory [[cortisol]] generation at sites of inflammation. [[nf-kb]] activation, driven by these cytokines, is a key transcriptional driver of HSD11B1 gene induction in inflammatory contexts. Conversely, insulin suppresses hepatic 11beta-HSD1 expression, and the loss of this suppressive effect in insulin-resistant states contributes to hepatic [[cortisol]] excess in metabolic syndrome. PPAR-gamma agonists (thiazolidinediones) downregulate 11beta-HSD1 in adipose tissue, partly explaining their insulin-sensitizing effects. The HSD11B1 promoter contains C/EBP binding sites, glucocorticoid response elements, and NF-kB sites, reflecting the integration of metabolic, hormonal, and inflammatory inputs into its transcriptional control.
+
+## Downstream Effects
+
+The primary downstream effect of 11beta-HSD1 activity is the local regeneration of [[cortisol]] from cortisone within target tissues, amplifying glucocorticoid signaling through [[gr]] and [[mr]] activation. In the liver, 11beta-HSD1-generated [[cortisol]] stimulates hepatic gluconeogenesis (via PEPCK and G6Pase induction) and promotes VLDL production, contributing to fasting glucose maintenance but also to hyperglycemia and dyslipidemia when activity is excessive. In visceral adipose tissue, local [[cortisol]] amplification promotes adipocyte differentiation (adipogenesis), lipid accumulation, and the expression of lipolytic enzymes, contributing to visceral obesity and the metabolic syndrome phenotype. In the hippocampus, 11beta-HSD1 amplifies [[cortisol]] exposure to both [[mr]] and [[gr]], modulating synaptic plasticity, cognitive function, and HPA axis feedback. Age-related increases in hippocampal 11beta-HSD1 activity have been associated with cognitive decline in both rodent models and human studies. At inflammatory sites, cytokine-induced 11beta-HSD1 upregulation increases local [[cortisol]], which then suppresses [[nf-kb]] via [[gr]], representing an endogenous anti-inflammatory feedback mechanism.
+
+## Holon Context
+
+Within the [[glucocorticoid-feedback]] holon, 11beta-HSD1 functions as a tissue-level gain amplifier for glucocorticoid signaling. It operates in functional opposition to [[11beta-hsd2]], which inactivates [[cortisol]] to cortisone. Together, these two enzymes create a local cortisol-cortisone shuttle that fine-tunes intracellular glucocorticoid tone independently of systemic [[cortisol]] levels, adding a tissue-autonomous regulatory layer beneath the systemic [[hpa-axis]] control. The 11beta-HSD1/[[11beta-hsd2]] pair exemplifies the holon principle of nested regulation: the [[hpa-axis]] sets the systemic [[cortisol]] concentration (system-level control), while the HSD enzymes modulate effective [[cortisol]] concentration at the cellular level (tissue-level control), and [[gr]]/[[mr]] receptor density and cofactor availability determine transcriptional responses (molecular-level control). This multi-scale architecture allows different tissues to experience different effective glucocorticoid environments despite sharing the same systemic hormone milieu.
+
+## Clinical Relevance
+
+11beta-HSD1 has emerged as a major therapeutic target in metabolic disease. Overexpression of 11beta-HSD1 in adipose tissue in transgenic mice recapitulates the full metabolic syndrome phenotype (visceral obesity, insulin resistance, dyslipidemia, hypertension), while 11beta-HSD1 knockout mice are metabolically protected. Human visceral adipose tissue expresses higher 11beta-HSD1 activity than subcutaneous adipose, and this depot-specific amplification of [[cortisol]] may contribute to the cardiometabolic risk associated with visceral obesity. Multiple pharmaceutical companies have developed selective 11beta-HSD1 inhibitors for type 2 diabetes and metabolic syndrome; while several (INCB13739, AZD4017, BI 135585) have shown favorable metabolic effects in clinical trials, none have achieved widespread clinical adoption due to modest efficacy relative to existing therapies. In inflammatory conditions, upregulation of 11beta-HSD1 at disease sites (rheumatoid synovium, atherosclerotic plaques, adipose tissue in obesity) is thought to represent an endogenous anti-inflammatory compensatory mechanism. Cortisone reductase deficiency, caused by HSD11B1 or H6PDH mutations, results in impaired cortisol regeneration, compensatory [[acth]] elevation, and adrenal androgen excess, presenting clinically as a PCOS-like syndrome in women.
